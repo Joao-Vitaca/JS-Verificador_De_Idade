@@ -10,7 +10,7 @@ var img = document.createElement('img')
     if(ano > anoAtual.getFullYear() || ano <= 1900){
         msg.innerHTML="Ano inválido"
     }else if(genero){
-        if(idade > 0 && idade <= 10){
+        if(idade >= 0 && idade <= 10){
         img.src = 'imagens/foto-bebe-m.png'
         }else if(idade > 10 && idade <= 20){
         img.src = 'imagens/foto-jovem-m.png'
