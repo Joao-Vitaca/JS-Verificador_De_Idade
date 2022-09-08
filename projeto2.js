@@ -22,7 +22,7 @@ var img = document.createElement('img')
         msg.innerHTML = `Detectamos Homem com ${idade} anos`
         window.document.getElementById('msg').appendChild(img)
     }else{
-        if(idade > 0 && idade <= 10){
+        if(idade >= 0 && idade <= 10){
         img.src = 'imagens/foto-bebe-f.png'
         }else if(idade > 10 && idade <= 20){
         img.src = 'imagens/foto-jovem-f.png'
